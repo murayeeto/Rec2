@@ -11,13 +11,13 @@ public class BasicInput {
         System.out.println("Enter integer:");
         userInt = scnr.nextInt();
 
-        System.out.println("Enter Double:");
+        System.out.println("Enter double:");
         userDouble = scnr.nextDouble();
 
-        System.out.println("Enter Character:");
+        System.out.println("Enter character:");
         userChar = scnr.next().charAt(0);
 
-        System.out.println("Enter String:");
+        System.out.println("Enter string:");
         userString = scnr.next();
 
         System.out.println(userInt + " " + userDouble + " " + userChar + " " + userString);
